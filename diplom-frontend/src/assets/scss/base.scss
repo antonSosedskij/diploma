@@ -1,0 +1,39 @@
+@import './variables';
+
+*{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+html, body{
+  min-height: 100%;
+  height: 100%;
+
+  margin: 0;
+  padding: 0 5px;
+
+  background: $app-background-dark;
+  color: $base-dark-theme-text;
+}
+
+.container{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  &__content{
+    flex: 1;
+  }
+}
+
+a{
+  color: $base-dark-theme-text;
+  text-decoration: none;
+
+  display: block;
+  height: 100%;
+}
+
+*{
+  margin: 0;
+}

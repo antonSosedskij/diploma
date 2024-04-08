@@ -1,0 +1,35 @@
+<div class="nav-bar">
+  <a
+    class="nav-bar__item"
+    [routerLink]="['main']"
+  >
+    <img src="assets/img/icons/Home.svg">
+  </a>
+  <a class="nav-bar__item">
+    <img src="assets/img/icons/news.svg">
+  </a>
+  <a
+    class="nav-bar__item ai__cam"
+    [style.background-color]=" '' | randomColor"
+    [routerLink]="['ai-scan']"
+  >
+    <img src="assets/img/icons/camera.svg">
+  </a>
+  <a
+    class="nav-bar__item"
+    [routerLink]="['special']"
+  >
+    <img src="assets/img/icons/hamburger-solid.svg">
+  </a>
+  <a
+    class="nav-bar__item"
+    [routerLink]="['profile']"
+  >
+    <p-avatar
+      image="assets/img/profile.jpg"
+      styleClass="mr-2"
+      size="large"
+      shape="circle">
+    </p-avatar>
+  </a>
+</div>

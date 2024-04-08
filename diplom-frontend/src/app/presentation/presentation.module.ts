@@ -13,6 +13,9 @@ import {RandomColorPipe} from "./pipes/random-color/random-color.pipe";
 import { AiScanComponent } from './pages/ai-scan/ai-scan.component';
 import { SpecialComponent } from './pages/special/special.component';
 import { ProfileComponent } from './pages/profile/profile.component';
+import { CardComponent } from './components/card/card.component';
+import { CardWrapperComponent } from './components/card-wrapper/card-wrapper.component';
+import { MainPageMenuComponent } from './components/main-page-menu/main-page-menu.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { ProfileComponent } from './pages/profile/profile.component';
     NavMenuBarComponent,
     AiScanComponent,
     SpecialComponent,
-    ProfileComponent
+    ProfileComponent,
+    CardComponent,
+    CardWrapperComponent,
+    MainPageMenuComponent
   ],
   imports: [
     CommonModule,

@@ -1,0 +1,29 @@
+.card{
+  margin-right: 20px;
+  padding: .5rem;
+  border-radius: 20px;
+
+  img{
+    border-radius: 20px;
+    width: 160px;
+    height: 200px;
+  }
+
+  &_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    *{
+      display: flex;
+      align-items: center;
+
+      i{
+        padding-right: 2px;
+      }
+      span{
+        font-size: 12px;
+      }
+    }
+  }
+}

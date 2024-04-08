@@ -1,0 +1,16 @@
+.menu{
+  padding: 1rem 1.5rem;
+  list-style-type: none;
+
+  &__item{
+    display: flex;
+    align-items: center;
+
+    font-size: 20px;
+
+    img{
+      margin-right: 10px;
+    }
+  }
+}
+
